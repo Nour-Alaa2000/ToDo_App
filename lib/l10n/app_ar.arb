@@ -1,0 +1,16 @@
+{
+  "app_name": "المهام",
+  "add_new_task": "أضافه مهمه",
+  "please_enter_task_title": "ادخل عنوان المهمه",
+  "title": "العنوان",
+  "language": "اللغه",
+  "theme": "الوضع",
+  "please_enter_task_description": "ادخل وصف المهمه",
+  "description": "الوصف",
+  "select_time": "اختيار التاريخ",
+  "addtask": "اضافه مهمه",
+  "arabic": "عربي",
+  "english": "انجليزي",
+  "dark": "داكن",
+  "light": "مضئ"
+}

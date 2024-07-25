@@ -1,0 +1,16 @@
+{
+  "app_name": "Todo",
+  "add_new_task": "Add New Task",
+  "please_enter_task_title": "Please Enter Task Title",
+  "title": "Title",
+  "language": "Language",
+  "theme": "Theme",
+  "please_enter_task_description": "Please Enter Task Description",
+  "description": "Description",
+  "select_time": "Select Time ",
+  "addtask": " Add task",
+  "arabic": "Arabic",
+  "english": "English",
+  "dark": "Dark",
+  "light": "Light"
+}
