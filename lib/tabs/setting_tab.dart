@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:todo_app/bottom_sheets/LanguageBottomSheet.dart';
 import 'package:todo_app/tabs/app_colors.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
@@ -19,12 +20,15 @@ class SettingTab extends StatelessWidget {
         InkWell(
           onTap: () {
             showModalBottomSheet(
+              isDismissible: true,
+
               context: context,
               isScrollControlled: true,
               builder: (context) {
                 return Container(
                   height: MediaQuery.of(context).size.height * .7,
-                  child: Text(AppLocalizations.of(context)!.arabic),
+                  child: LanguageBottomSheet(),
+                  // child: Text(AppLocalizations.of(context)!.arabic)arabic,
                 );
               },
             );
@@ -53,10 +57,12 @@ class SettingTab extends StatelessWidget {
         InkWell(
           onTap: () {
             showModalBottomSheet(
+              isDismissible: true,
               context: context,
               isScrollControlled: true,
               builder: (context) {
                 return Container(
+
                   height: MediaQuery.of(context).size.height * .7,
                   child: Text(AppLocalizations.of(context)!.dark),
                 );
